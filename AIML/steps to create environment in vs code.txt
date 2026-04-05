@@ -1,0 +1,41 @@
+
+prerequistes
+------------
+
+	install vscode
+
+	install anaconda
+
+=======================================================================================
+
+to use vscode in working directory
+----------------------------------
+
+- open cmd
+
+	- E:
+	
+	- cd E:\Hugging Face
+
+	- code .
+
+- opens vscode
+
+	- click terminal --> new terminal
+
+	- change the type of terminal to command prompt
+
+	- create the new virtual environment
+
+		- conda create -p venv python==3.10 -y
+
+	- activate the virtual environment
+
+		- conda activate venv/
+
+	- create a file with name as ===> requirements.txt (add the libraries which u want to install)
+
+		- to install the requirements --> pip install -r requirements.txt
+
+
+	- create a file with name as ===> .env             (add the api key)
